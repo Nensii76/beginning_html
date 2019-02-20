@@ -1,0 +1,78 @@
+* {box-sizing:border-box;}
+.block-20 {
+   width: 20% 
+}
+
+.block-30 {
+   width: 30% 
+}
+
+.block-33 {
+   width: 33.333% 
+}
+
+.block-40 {
+   width: 40% 
+}
+
+.block-50 {
+   width: 50% 
+}
+.block-60 {
+   width: 60% 
+}
+.block-70 {
+   width: 70% 
+}
+.block-80 {
+   width: 80% 
+}
+.block-90 {
+   width: 90% 
+}
+.block-100 {
+ 
+   width: 100% 
+}
+
+.center-block-50 { max-width: 50%}
+.center-block-80 { max-width: 80%}
+
+.center-block-960 { max-width: 960px}
+.center-block-1200{ max-width: 1200px}
+
+.block-20,.block-30,.block-33,.block-40,.block-50,.block-60,.block-70,.block-80,.block-90,.block-100 {
+    float: left;
+    padding: 20px;
+    text-align:center; 
+}
+.center-block-50,.center-block-80,.center-block-960,.center-block-1200 {
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+.red {color:red}
+.green {color:green}
+.grey {color:grey}
+.blue {color:blue}
+.yellow {color:yellow}
+.orange {color:orange}
+.pink {color:pink}
+
+.border {border: 1px solid #ccc}
+.top-10{margin-top: 10px}
+.top-20{margin-top: 20px}
+.top-30{margin-top: 30px}
+.text-center{text-align: center;}
+.text-left{text-align: left}
+#header{min-height: 150px;}
+#body{min-height: 400px;}
+#footer{min-height: 150px;}
+/*responsive*/
+@media screen and (max-width:960) {
+    #logo-block {width: 30%;}
+    #naslov {width: 70%;}
+    #search {width: 100%}
+    
+}
+
